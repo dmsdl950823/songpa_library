@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&subset=korean');
+
+body, div, h2, ul, li, a, img, fieldset, form, legend, input, p, h3, span, strong, dl, dt, dd, caption { margin : 0; padding : 0; box-sizing:border-box;}
+
+.skip, legend,caption { width : 1px; height : 1px; font-size : 0px; text-indent:-9999px; overflow : hidden;
+        line-height : 0px; }
+
+fieldset, img,input, option  { border : none;}
+
+ul, li {list-style:none;}
+
+input[type="text"],
+input[type="password"] { color : #7e7e7e ; font-size : 17px;}
+body, select { font-family: 'Nanum Gothic', sans-serif; font-size : 17px;}
+h3 { font-size : 18px; font-weight : 700; }
+
+address {font-style:normal;}
+
+a:link,
+a:visited ,
+a:hover,
+a:active,
+a:focus { color : #323232; text-decoration : none; }
+
+
+#skipMenu { position : absolute; width : 100%; z-index:9999;}
+#skipMenu a{ position : absolute; top:-100px;}
+#skipMenu a:hover,
+#skipMenu a:active,
+#skipMenu a:focus { position : absolute; top:0; display : block;
+                     background-color : #0079b1; width : 100%; text-align : center;
+                    padding : 20px; color : #fff; font-weight : 800;}

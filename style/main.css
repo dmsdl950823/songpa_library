@@ -1,0 +1,286 @@
+@charset "utf-8";
+@import url(header.css);
+@import url(footer.css);
+@import url(reset.css);
+
+.contentwrap { width : 1200px; margin : 0 auto; position : relative; background:url(../headerimg/bg_img.png) no-repeat 0 0px;
+ }
+
+
+/*--- 검색창 ---*/
+.searchWrap { width : 1200px; margin : 0 auto; }
+.searchWrap form{padding-top:250px; padding-left:150px;}
+
+.searchWrap input[type="text"] {background:url(../bodyimg/searchbar_07.png);
+                                width : 712px; ; height : 52px; line-height : 2;
+                                float : left; padding-left : 20px; }
+.searchWrap input[value] { color : #727272; font-size : 20px;}
+.searchWrap input[type="image"] {float : left;  }
+
+/*--- 검색창 End ---*/
+
+
+.content{position:relative;height : 340px; margin : 100px 0 20px 0; }
+
+.content:after{content: ""; clear:both; display: block;}
+
+.adWrap03 { width :385px;  height : 340px; overflow : hidden;  position:relative; float:left}
+.adWrap03 ul { width : 1155px; position:absolute; top:0; left:0;}
+.adWrap03 ul li { float : left; width :385px;  height : 340px;}
+
+
+/*--광고--*/
+
+/*--- 퀵메뉴 ---*/
+.quickMenu { width: 286px; height : 340px; background-image:url(../bodyimg/bg_back_09.jpg);
+            float:left; padding:20px; margin:0 21px ;}
+
+
+
+.quickMenu ul{ width : 246px; height : 300px;}
+.quickMenu ul:after{ content :''; display : block; clear:both;}
+.quickMenu li  { float : left; margin:0 6px; margin-bottom : 17px;}
+.quickMenu li a { width : 70px; height : 90px; float : left; font-size : 0; line-height : 0; background:url(../bodyimg/quick_Icon_03.png) no-repeat }
+
+.quickMenu li.quick1 a { background-position: 0 0; }
+.quickMenu li.quick2 a { background-position: -90px 0; }
+.quickMenu li.quick3 a { background-position: -180px 0; margin-right : 0;}
+.quickMenu li.quick4 a { background-position: 0 -110px; }
+.quickMenu li.quick5 a { background-position: -90px -110px; }
+.quickMenu li.quick6 a { background-position: -180px -110px;margin-right : 0;}
+.quickMenu li.askLibr a {background-position: -90px -210px;  margin-left : 85px;}
+
+/*--- 퀵메뉴 End ---*/
+
+/*---공지사항--*/
+
+.noticeWrap { float:left; width : 487px; height : 340px; background-color:#eff2f6; padding : 37px 36px; position: relative}                
+.noticeWrap h3 {text-align : center;  width : 136px; float:left;}
+.noticeWrap h3 a {display : inline-block; width : 85px; height : 27px; border-bottom : 2px solid #6fc6ee; } 
+.noticeWrap h3 a:hover{display : inline-block; width : 100px; border-bottom : 4px solid #0079b1; }
+.noticeWrap h3.on a {display : inline-block; width : 100px; border-bottom : 4px solid #0079b1; }
+
+
+.noticeWrap .notice { margin-left : 0;}
+.noticeWrap > li { float : left; }
+.noticewrap {position : relative;}
+
+.inside { width : 410px; position:absolute; top:107px;left:38px; display : none; }
+.noticeon { display : block; }
+
+.inside li { line-height : 40px; overflow : hidden;  background:url(../bodyimg/dot.png) no-repeat 0 center; border-bottom : 1px solid #bec8ce;}
+.inside li a {float : left; width : 200px; white-space: nowrap; text-overflow: ellipsis;overflow : hidden; font-size : 13px;padding-left : 15px;}
+
+
+
+.inside span { font-size : 11px; color : #ccc; float : right ; }
+.noticeWrap p { position : absolute; top : 91px; right : 38px;}
+
+/*-- 공지사항 --*/
+
+
+
+
+
+.contents_2{width:1200px; 
+/*    position : relative; top : -140px; left:0; */
+    }
+
+.contents_2:after{content: ''; display:block; clear:both;}
+
+/*개관시간,행사달력 시작*/
+.callenderWrap { width : 385px; height : 340px; background-color:#eff2f6; position : relative;  float:left; }
+.calul { padding : 20px ; width : 387px; height : 300px;}
+
+.calul:after{ content : ''; display : block; clear : both;}
+
+.calul h3  { width : 173px; text-align: center; }
+.calul h3 a {  width : 85px; display : inline-block; font-size : 15px; 
+             border-bottom : 2px solid #72c7ee; padding-bottom: 7px;  text-align : center;}
+
+.calul h3 a:hover{display : inline-block; width : 100px; border-bottom : 4px solid #0079b1; }
+.calul h3.on a{display : inline-block; width : 100px; border-bottom : 4px solid #0079b1; }
+
+.cal01{position : absolute; top : 60px ; left : 20px; display :none }
+.cal02{position : absolute; top : 65px ; left : 20px; display:none}
+.calul > li > div.calon {display:block}
+
+/*개관시간*/
+
+.opentime { float : left; }
+
+
+/*개관시간 테이블*/
+.opentimetable {border-collapse: collapse; width : 344px; margin-bottom : 20px; font-size : 10px;}
+
+
+
+.opentimetable th  { line-height : 1.3;text-align: center; background-color : #a7d3ea; color : #004a6c; border: 1px dotted  #0079b1; }
+.opentimetable td  {text-align: center; line-height: 1.7; border: 1px solid #73a8c3;  }
+.opentimetable td .samedate {font-size : 8px; }
+.opentimetable .subtitle { background-color : #dbebf2; }
+
+/*--휴관일 dldt--*/
+.timedetail { font-size : 13px; width : 344px;}
+.timedetail:after{content : ''; display : block; clear : both;}
+.restday{ font-size : 13px; color : #004a6c; font-weight : 800; text-align: center; width : 85px;  float : left;
+			padding-top : 16px; : }
+.timedetail dd { font-size : 12px; width : 259px;  float : left ; padding-left : 5px; margin-bottom : 3px;  }
+.timedetail dd span { font-size : 10px; color : #999;}
+
+/*개관시간 끝*/
+
+
+/*행사달력*/
+.calendar { float : left;}
+.calendar:after { content : ''; display : block; clear : both;  }
+
+.month ul { overflow: hidden; width : 344px; height : 30px;}
+.month ul li {float : left;}
+.cal_month {width : 320px; text-align: center;  color : #0079b1; font-weight: 800; font-size : 16px;}
+.cal_month strong{ font-size : 18px;}
+
+.calendar table {border-collapse : collapse; width : 300px; margin : 0 22px 10px 22px;}
+.calendar table th { font-size : 12px; text-align: center; width : 30px; color : #004a6c;}
+.calendar thead tr{ height : 30px;}
+.sun { color :red; }
+.sat {color : blue;}
+.calendar table td { font-size : 12px; text-align: center; width : 30px;
+                    height : 25px; color : #004a6c;}
+.not {color : #73a8c3;}
+
+
+.calanni {margin:0 auto; width : 170px; overflow: hidden}
+.calanni li {float : left; font-size : 12px; padding-bottom : 3px; width : 40px; text-align: center;}
+.calanni .today { margin-right : 25px; border-bottom : 2px solid #0079b1;}
+.calanni .restdate { margin-right : 25px; border-bottom : 2px solid #ff7676;}
+.calanni .annidate {border-bottom : 2px solid #259c00;}
+/*달력끝*/
+
+
+
+
+/*--- 신착도서 ---*/
+
+
+.newbkWrap { float:left; margin:0 21px;
+            width : 286px; height : 340px; background-color:#eff2f6;
+            padding : 20px; 
+            }
+ 
+.newbkWrapin  {position:relative; height:300px; }
+.newbkWrapin  li.perpg{ float:left; }
+.newbkWrapin  li.perpg h3{float:left; width : 82px; text-align: center;}
+.newbkWrapin  li.perpg h3 a {  font-size : 15px; border-bottom : 2px solid #72c7ee; padding-bottom: 7px;  }
+.newbkWrapin  li.perpg h3 a:hover{border-bottom : 4px solid #0079b1 ; }
+.newbkWrapin  li.perpg h3.on a{border-bottom : 4px solid #0079b1 ; }
+.newbkWrapin  li.perpg  div.bkpagewrap{position:absolute; left:0; top:63px; height:250px; width : 246px; display : none}
+
+.newbkWrapin  li.perpg  div.bkpagewrap.pgshow{display : block}
+.newbkWrapin  li.perpg  div.bkpagewrap .bkpagewrap2 {position : absolute; top : 0px; left : 0;  height : 220px; overflow: hidden; position : relative}
+.newbkWrapin  li.perpg  ul.bkpage{position : absolute; top : 0px; left : 0;  height : 220px;}
+.newbkWrapin  li.perpg  ul.bkpage:after{content:''; clear: both; display : block}
+.newbkWrapin  li.perpg  ul.bkpage  li{float:left; width : 123px;  font-size:12px; text-align:center; height : 220px;}
+.newbkWrapin  li.perpg  ul.bkpage  li strong{display: block; margin-top : 10px;  margin-bottom : 5px;}
+
+
+.txtbtn {position:absolute; bottom:13px; right:0px;}
+.txtbtn ul li {display : inline; margin-left : 7px;  width : 15px; height : 15px;}
+.txtbtn .presson a {background:url(../bodyimg/presson.png) no-repeat 0 0; padding : 7px; font-size : 0; }
+.txtbtn .press a {  background:url(../bodyimg/nxtoff.png) no-repeat 0 0; padding : 4px; font-size : 0;}
+
+.txtbtn span { text-indent : -9999px; line-height: 0; }
+
+.line{width:169px; height:1px; display: inline-block; background-color:
+    #bdd6e6; position:absolute; bottom:15px; left:6px;}
+.moreinfo {position:absolute; top:-20px; right:7px; }
+
+.bgline {border-right : 0.1px solid #bfbfbf; padding-right: 4px; margin-right: 4px;}
+
+/*--- 신착도서 End ---*/
+
+
+
+/*--- 행사안내 ---*/
+.EventWrap {width : 286px; height : 340px; background-color:#eff2f6;
+            padding : 20px; float:left; }
+
+.perpage2 { float : left;}
+
+.EventWrap h3 {width :122px;  text-align : center;}
+.EventWrap h3 a {font-size : 15px;  border-bottom : 2px solid #72c7ee;
+                padding-bottom : 7px; width : 78px; display:inline-block}
+.EventWrap h3 a:hover{border-bottom : 4px solid #0079b1;}
+.EventWrap h3.on a{border-bottom : 4px solid #0079b1;}
+
+.EventWrap strong { font-size : 10px; display : block;
+                    margin-bottom : 6px; margin-top : 15px;}
+.EventWrap span{ font-size : 10px; display : block;}
+.Eventpor li { width : 123px; float : left; text-align : center; height : 220px}
+
+.Eventpor {overflow : hidden;position : absolute; top : 0px; left : 0;  }
+
+.evntpgbox2 {position : absolute; top : 0px; left : 0;  height : 220px; overflow: hidden; position : relative}
+.evntWrapin { width : 246px; height : 300px; position :relative;}
+.evntpgbox { width : 246px; position : absolute; left : 0;  top : 63px; height:250px;  display : none;}
+.evntpgbox.eventon{display : block}
+
+.evtbtn { position : absolute; bottom:13px; right:0px }
+.evtbtn li { display : inline ; margin-left : 7px;  width : 15px; height : 15px;  }
+.evtbtn .press a {background:url(../bodyimg/nxtoff.png) no-repeat 0 0; padding : 4px; font-size : 0;}
+.evtbtn .presson a{background:url(../bodyimg/presson.png) no-repeat 0 0; padding : 7px; font-size : 0;}
+
+.moreinfo2 {position : absolute; top:-20px; right:7px; }
+/*--- 행사안내 End ---*/
+
+
+
+
+/*-- 열람실현황 --*/
+.placeWrap { background:url(../bodyimg/bg_back_18.jpg) no-repeat 0 0;
+            padding : 28px 32px; float:right}
+
+.placeWrapWrap { position : relative;}
+.placeWrap h3 { text-align : center; color : #fff; border-bottom : 2px solid #6fc6ee; padding-bottom : 5px;
+                margin-bottom : 35px; font-size : 15px; }
+
+ dl { width : 120px; margin-bottom : 14px;}
+
+
+dt { width : 120px; font-size : 11px; color : #e9e9e9; margin-bottom : 8px;  } 
+
+
+.rest_all { float :right;  }
+.placeWrap dd { height : 20px;}
+.placeWrap strong{ font-size : 12px; color : #fff; float : left;}
+.restNum { font-size : 11px; float : right; color : #fff;}
+
+
+.moreInfo { position : absolute; top : 35px; right : 0;  }
+
+
+
+
+/*--- 배너 ---*/
+.bannerWrap {width : 1200; height : 93px; margin :50px auto; background-color : #e7edef;  margin-bottom : 30px;
+                padding : 28px 82px;}
+.banner_gthr {width : 95px; font-size : 23px;float : left; font-weight : 800; margin-top:5px;
+            }
+.morebanner { margin : 9px 19px; float : left;  }
+
+.lftbanner {float : left; margin-right : 30px; margin-top : 1px;}
+.bannerbox { float : left ; width : 782px; height : 37px; overflow : hidden; position : relative; }
+.otherban { width : 2295px; position : absolute; top : 0; left: 0; }
+.otherban:after{content : ''; display : block; clear : both; }
+.otherban li { margin-right : 5px; float : left; }
+.rghtbanner {margin-left : 30px; margin-top : 2px; float : left; } 
+
+
+
+
+
+
+
+
+
+

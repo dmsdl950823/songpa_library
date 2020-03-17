@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import url(header.css);
+@import url(footer.css);
+@import url(reset.css);
+
+
+
+.wrapperinside{width : 1008px; margin:0 auto; margin-bottom : 30px; 
+            margin-top : 91px;}
+.wrapperinside:after { content:''; clear: both; display: block;}
+
+.searchbarWrap {  ; width : 1010px;  height : 54px; overflow : hidden; }
+
+.factorfrm {float : left;}
+
+.factorfrm .waytosearch {  float : left; border : none; background:url(../sub_bodyimg/searchbarwrap_03.png) no-repeat 0 0;
+                width : 182px; height : 52px; padding-left :10px; color : #7e7e7e ; font-size : 17px; padding : 0 20px }
+
+.factorfrm input[type="text"]{float : left; background-image:url(../sub_bodyimg/searchbarwrap_05.png);
+                                width : 511px; height : 52px; padding-left : 15px; line-height : 2;}
+.factorfrm input[type="image"]{ float : left;}
+.write, .list {float : left; display : inline; margin-left : 23px; margin-top : 1px;}
+
+
+/*--- 검색창 ---*/
+
+
+
+.all { margin-top : 37px; width : 345px; float : right; }
+.all p { float : left; text-align : center;}
+.all p, .howmany { width : 110px;  }
+
+.all .nowpage {margin-right:15px}
+.howmany { display : inline;position:relative; }
+.howmany > a {display : inline-block;background:url(../headerimg/upsidedown_03_03.png) no-repeat right -14px; width : 110px; }
+.howmany > a.tenclose {background-position:right 3px;  }
+
+.all ul.off { position : absolute; right: -2px; top : 20px; 
+         background-color : #fff; border : 1px solid #aae4ff; width : 110px; padding : 7px 0 ;display : none;} 
+.all ul.off li { padding : 6px 0;  text-align: center; }
+.all ul.off li:hover  { background-color: #d4e5fb; }
+
+/*--- 보기방식 설정---*/
+
+
+.tablebox {float : left; width : 1010px; border-collapse:collapse;
+            margin-top : 10px; text-align : center; font-size : 16px;
+            background-color : #f7f7f7; padding-bottom :11px;}
+table {border-collapse : collapse;}
+thead tr {height : 95px; background-color : #d5dcea; font-size : 18px;}
+tbody tr { height : 51px; border-bottom : 1px solid #ccc; }
+
+.titleleft { text-align : left; padding-left : 10px; }
+.num {color : #a4a4a4;}
+tbody tr:hover {background-color: #e5e8ef; }
+
+/*--- 테이블 ---*/
+
+.nxtprv { float : left; width : 100%; text-align: center;margin-top : 30px;}
+.nxtprvinner li  {  display : inline; margin : 0 1px;}
+.nxtprvinner span  { margin-left : 8px; color : #397bb8; font-weight : 800;}
+.nxtprvinner li a { padding : 10px; }
+.nxtprvinner li a:hover,
+.nxtprvinner li a:active,
+.nxtprvinner li a:focus {text-decoration : underline;}
+
+.nxtprvinner .mid {margin : 0 10px;}
+/*--- 현재페이지 ---*/
+
+
+
+
+
+

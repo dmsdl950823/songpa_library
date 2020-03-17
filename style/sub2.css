@@ -1,0 +1,88 @@
+@charset "utf-8";
+@import url(header.css);
+@import url(footer.css);
+@import url(reset.css);
+
+
+
+#contentsWrap {width : 1200px; margin:0 auto; }
+.greybox{ margin : 102px auto 105px auto; width : 998px;
+             background-color:#eff2f6; padding : 154px 0 0 0; }
+
+
+/*--- 상자 정리 ---*/
+.topbox {width : 536px; margin: 0 auto;}
+.topbox:after {content : ''; clear : both; display : block;}
+
+.logimg { width : 140px; height : 148px; background: url(../sub2_bodyimg/logbtbg.png) no-repeat 0 0; float: left;}
+/*    border:1px solid blue;}*/
+
+.hospitality { float : left; margin : 17px 0; }
+/*    border : 1px solid red;}*/
+.hospitality h3 { font-size : 24px; margin-bottom : 13px;}
+.hospitality .sndline { font-size : 19px; color : #3d3d3d; margin-bottom : 6px;}
+.hospitality .thrdline { font-size : 16px; color : #969696; line-height : 1.5;}
+
+/*--- 머리말 ---*/
+
+.idpwgroup { float : left; position : relative; }
+.idpwgroup:after {content:'';clear:both; display : block;  }
+
+input[type="text"] { width : 386px; height : 52px; background:url(../sub2_bodyimg/loginbox_03.png); padding-left : 55px;
+float : left; margin-bottom : 16px;}
+input[type="password"] { width : 386px; height : 52px; background:url(../sub2_bodyimg/loginbox_06.png); padding-left : 55px; float : left;}
+.pwnon {position : absolute ;top : 85px; left : 55px;color : #7e7e7e ; font-size : 17px; display: block;}
+
+.loginbtn {width : 130px; height : 130px; font-size : 18px; color :#fff; font-weight: 700; 
+            border : none; background:url(../sub2_bodyimg/loginbtn_03.png);
+            position: absolute ;  top : 0; right : 0;}
+.loginbtn:active,
+.loginbtn:active,
+.loginbtn:focus { background-position: 0 130px}
+
+
+.etc {float : left; width : 536px; margin-top : 29px; text-align : center; }
+.etc p { display : inline; font-size : 18px; color : #5b5b5b}
+.find a, .jo_in a{ font-size : 18px; color : #5b5b5b}
+
+/*input[type="checkbox"], .cent { vertical-align : middle;}*/
+
+.joingroup { margin-left : 20px;}
+.autologingroup, .jo_in { background:url(../sub2_bodyimg/l_08.png) no-repeat 0 3px; padding-left : 10px; }
+.remembergroup, .find {padding-right : 7px;}
+
+
+/*--- 아이디폼 ---*/
+
+.loginbottom {  background-color : #bcc8ce;  width : 998px; 
+                padding : 34px 0; margin-top : 154px;
+                /*padding : 34px 210px 37px 206px;*/ }
+.notice {text-align : center; margin-bottom : 16px; font-size : 22px;}
+.detail { text-align : center;  }
+/*.detail .longwid {width : 150px; }*/
+.detail li { width : 150px; display : inline; zoom 1;  text-align : center; font-size : 15px; margin : 0; margin-right : 20px; }
+.cust {margin-right : 0;}
+.detail span { color : #185191}
+
+
+/*--- 로그인 안내사항 ---*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+
+
+
+#footlong { width : 100%; background-color : #ededed;  }
+.footerWrap { width : 1200px;  margin:0 auto;  position : relative; padding : 38px 20px; }
+.bottomSrc li { display : inline; margin-right : 20px; font-size : 13pt;}
+.personal { color : #004cb5; }
+address { color : #222; margin-top : 21px;}
+.copy { font-size : 15px; line-height : 30px; color : #505050;}
+
+.otherInstitutes {position : absolute; top : 38px; right : 20px}
+.otherInstitutes .otherinstA{ width : 135px; background:url(../headerimg/upsidedown_03_03.png) no-repeat 115px 4px; padding-right : 5px}
+.otherInstitutes .otherinstA.on{background:url(../headerimg/upsidedown_03_03.png) no-repeat 115px -14px;}
+.otherInstitutes .otherinstA a{display : block}
+
+.otherInstitutesUl {position : relative; display : none;}
+.otherInstitutesUl ul { position : absolute; bottom:25px; right : 0;
+         background-color: #fff; width : 140px; border : 1px solid #004cb5; 
+            padding:10px 0;}
+.otherInstitutesUl ul li span { font-size : 12px;}
+.otherInstitutesUl ul li:hover { background-color : #d4e5fb}
+.otherInstitutesUl ul a { padding-left : 5px; font-size : 13px; display:block;}
+.sns { position : absolute; top : 71px; right : 20px }
+.sns li{ display : inline;}
+
+
+
+
+
+
+
+
+
+
+
+

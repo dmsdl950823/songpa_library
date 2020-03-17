@@ -1,0 +1,90 @@
+@charset "utf-8";
+#wrapper{width:100%; position: relative}
+.header {width: 100%; position: relative; z-index:999}
+
+.logopart { width : 1200px; margin :0 auto ; padding-top : 30px; }
+.logopart:after {content : ''; clear : both; display : block;}
+.logopart h1 {float : left; }
+.uppermen { float : right; margin-top : 44px; ;position : relative; bottom : 0; right : 0;}
+/*
+.uppermen li { float : left; padding-right : 38px; }
+.uppermen li+li+li { float : left; padding-right : 9px; }
+.uppermen li+li+li+li { float : left; margin-top : 2px; padding-right : none; }
+*/
+.uppermen > li {float:left; padding:0 15px} 
+li.lang{background:url(../headerimg/upsidedown_03_03.png) no-repeat right -12px; padding-right:20px;margin-right : 15px;}
+li.lang.on { background-position : right 4px;}
+.otherlang { width : 80px; height : 110px; background-color : #ffffff; position : absolute ; top : 25px; right:0; border : 1px solid #aae4ff; z-index: 99; padding :10px 0 ;  
+            display : none;}
+.otherlang.open { display : block; }
+.otherlang li { line-height : 2 ;}
+.otherlang li a { font-size : 15px; display : block; text-align : center}
+.otherlang li a:hover { background-color : #d4e5fb; }
+
+/*--- 머리글 END ---*/
+
+.gnblong { width : 100%; background-color : #0079b1; height : 91px;}
+.gnb { width : 1200px; margin: 0 auto; position: relative;}
+.gnb:after { content:''; clear:both; display: block; }
+.gnb_contents {width : 1200px; position : absolute;  }
+.gnb_contents:after {content:''; clear:both; display: block;}
+.gnb_contents .gnbdpth { float : left; width : 211px;  text-align : center; padding : 30px 0;
+                    font-size:27px; }
+.gnb_contents li a{ color : #fff; }
+.menumore { float : left; padding : 37px 84px 32px 40px; }
+
+
+.gnb_contents > li > div { background-color : #0079b1; padding : 10px 45px; }
+.gnb_contents > li > div > ul {font-size : 15px;   height : 380px;  margin-top : 18px; }
+.gnb_contents > li > div > ul > li {text-align : left; line-height:1.8}
+.gnb_contents  .insidegnb li{font-size : 15px;  line-height : 1.5; }
+
+
+
+.gnb1{ width : 246px;}
+/*	padding : 10px 45px 17px 45px;}*/
+                       
+/*자료검색내부 메뉴*/ 
+.gnb2 {  width : 246px; }
+/*	padding : 10px 0 17px 69px;}*/
+.gnb2 .insidegnb {margin-bottom : 17px;}
+.gnb2 .insidegnb li { height : 20px;}
+                       
+/*프로그램 메뉴*/
+
+.gnb3 { width : 246px;}
+.gnb3 .insidegnb {margin-bottom : 17px;}
+.gnb3 .insidegnb li {height : 20px;}
+
+/*열린공간 메뉴*/
+
+.gnb4 { width : 390px; height : 320px; background-color : #0079b1; }
+.gnb4:after { content:''; display : block; clear : both;}
+.gnb4 .insidegnb { line-height : 1.5; margin-bottom : 17px;}
+
+.gnb4 .insidegnb >li{margin-bottom : 0px;}
+
+.gnb4_1 { float : left; }
+.gnb4  li { font-size : 16px; text-align : left; margin-bottom : 10px; }
+.gnb4_2 { float : left; }
+.gnb4_2 > li { margin-left : 30px;  }
+
+/*도서관안내 메뉴*/
+
+.gnb5 {  width : 210px; height:130px}
+.gnb5 li { line-height : 2.5; }
+
+
+
+.gnb_contents > li > div {display : none;} 
+.gnb_contents > li > div.on {display : block;} 
+
+/*마이라이브러리 메뉴*/
+
+.gnbdpth .insidegnb a { color : #d4e5fb; font-size : 12px; margin-left : 20px;  }
+.gnb1 span { color : #aae4ff; font-size : 13px;}
+
+
+/*-- head End --*/
+
+
